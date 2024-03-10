@@ -2,7 +2,7 @@ var urlRPC = "https://rpc-nebulas-testnet.uniultra.xyz";
 var currency = "U2U";
 var networkName = "Unicorn Ultra Nebulas Testnet"
 const chainId = 2484;
-const milisecondsToWait = 5000;
+const milisecondsToWait = 15000;
 
 var web3 = new Web3(new Web3.providers.HttpProvider(urlRPC));
 const MMSDK = new MetaMaskSDK.MetaMaskSDK();
